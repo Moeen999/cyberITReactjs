@@ -1,5 +1,6 @@
 // import MeraPehlaComponent from "./components/MeraPehlaComponent";
 
+import JSXasProps from "./components/JSXasProps";
 import Series from "./components/Series";
 
 const App = () => {
@@ -20,6 +21,8 @@ const App = () => {
     // </>
     <>
     <Series/>
+
+    {/* <JSXasProps/> */}
     
 
     </>
