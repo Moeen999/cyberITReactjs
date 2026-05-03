@@ -2,6 +2,7 @@
 
 import JSXasProps from "./components/JSXasProps";
 import Series from "./components/Series";
+import StyledButton from "./components/StyledButton";
 
 const App = () => {
   // console.log(seriesData);
@@ -20,7 +21,8 @@ const App = () => {
     //   <h2>main masla create kr rha hon</h2>
     // </>
     <>
-    <Series/>
+    {/* <Series/> */}
+    <StyledButton/>
 
     {/* <JSXasProps/> */}
     

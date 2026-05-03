@@ -1,5 +1,7 @@
+import styles from "../css/Series.module.css";
+
 const SeriesCard = ({ data }) => {
-  const { name, description, genre, img_url, age,rating } = data;
+  const { name, description, genre, img_url, age, rating } = data;
 
   // const myBtnStyles = {
   //           backgroundColor: "#372114",
@@ -9,10 +11,10 @@ const SeriesCard = ({ data }) => {
   //           borderRadius:"12px",
   //           border:"none"
   //         }
-  const ratingBasedStyleBtn = rating <=8.5 ? "under-rated" : "over-rated"
+  const ratingBasedStyleBtn = rating <= 8.5 ? styles["under-rated"] : styles["over-rated"];
 
   return (
-    <div className="card">
+    <div className={styles["card-conatiner"]}>
       <img src={img_url} alt={name} />
 
       <div className="card-body">
@@ -33,6 +35,7 @@ const SeriesCard = ({ data }) => {
 };
 
 export default SeriesCard;
+
 
 // normal css
 // font-size:12px;
