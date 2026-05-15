@@ -1,5 +1,7 @@
 // import MeraPehlaComponent from "./components/MeraPehlaComponent";
 
+import EventHandling from "./components/EventHandling";
+import EventsAsProps from "./components/EventsAsProps";
 import JSXasProps from "./components/JSXasProps";
 import Series from "./components/Series";
 import StyledButton from "./components/StyledButton";
@@ -22,9 +24,12 @@ const App = () => {
     // </>
     <>
     {/* <Series/> */}
-    <StyledButton/>
+    {/* <StyledButton/> */}
 
     {/* <JSXasProps/> */}
+
+    {/* <EventHandling/> */}
+    <EventsAsProps/>
     
 
     </>
