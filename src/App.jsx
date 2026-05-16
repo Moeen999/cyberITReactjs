@@ -1,7 +1,9 @@
 // import MeraPehlaComponent from "./components/MeraPehlaComponent";
 
 import EventHandling from "./components/EventHandling";
+import EventPropaation from "./components/EventPropaation";
 import EventsAsProps from "./components/EventsAsProps";
+import UseState from "./components/hooks/UseState";
 import JSXasProps from "./components/JSXasProps";
 import Series from "./components/Series";
 import StyledButton from "./components/StyledButton";
@@ -22,17 +24,18 @@ const App = () => {
     //   </h1>
     //   <h2>main masla create kr rha hon</h2>
     // </>
-    <>
+    <div className="w-full h-screen flex justify-center items-center">
     {/* <Series/> */}
     {/* <StyledButton/> */}
 
     {/* <JSXasProps/> */}
 
     {/* <EventHandling/> */}
-    <EventsAsProps/>
-    
+    {/* <EventsAsProps/> */}
+    {/* <EventPropaation/> */}
+    <UseState/>
 
-    </>
+    </div>
 
   );
 };
