@@ -3,6 +3,8 @@
 import EventHandling from "./components/EventHandling";
 import EventPropaation from "./components/EventPropaation";
 import EventsAsProps from "./components/EventsAsProps";
+import DerivedStates from "./components/hooks/DerivedStates";
+import LiftningStateUp from "./components/hooks/LiftningStateUp";
 import StateQuestion from "./components/hooks/StateQuestion";
 import UseState from "./components/hooks/UseState";
 import JSXasProps from "./components/JSXasProps";
@@ -37,7 +39,9 @@ const App = () => {
     {/* <EventPropaation/> */}
     {/* <UseState/> */}
     {/* <StateQuestion/> */}
-    <ThemeTogller/>
+    {/* <ThemeTogller/> */}
+    {/* <DerivedStates/> */}
+    <LiftningStateUp/>
 
     </div>
 
