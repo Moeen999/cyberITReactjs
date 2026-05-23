@@ -1,14 +1,17 @@
 // import MeraPehlaComponent from "./components/MeraPehlaComponent";
 
+import ControllednUncontroled from "./components/ControllednUncontroled";
 import EventHandling from "./components/EventHandling";
 import EventPropaation from "./components/EventPropaation";
 import EventsAsProps from "./components/EventsAsProps";
+import FormHandling from "./components/FormHandling";
 import DerivedStates from "./components/hooks/DerivedStates";
 import LiftningStateUp from "./components/hooks/LiftningStateUp";
 import StateQuestion from "./components/hooks/StateQuestion";
 import UseState from "./components/hooks/UseState";
 import JSXasProps from "./components/JSXasProps";
 import Series from "./components/Series";
+import SohrtCircuitEval from "./components/SohrtCircuitEval";
 import StyledButton from "./components/StyledButton";
 import ThemeTogller from "./components/ThemeTogller";
 
@@ -41,7 +44,10 @@ const App = () => {
     {/* <StateQuestion/> */}
     {/* <ThemeTogller/> */}
     {/* <DerivedStates/> */}
-    <LiftningStateUp/>
+    {/* <LiftningStateUp/> */}
+    {/* <SohrtCircuitEval/> */}
+    {/* <ControllednUncontroled/> */}
+    <FormHandling/>
 
     </div>
 
