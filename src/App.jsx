@@ -1,6 +1,7 @@
 // import MeraPehlaComponent from "./components/MeraPehlaComponent";
 
 import ControllednUncontroled from "./components/ControllednUncontroled";
+import DataFetching from "./components/DataFetching";
 import EventHandling from "./components/EventHandling";
 import EventPropaation from "./components/EventPropaation";
 import EventsAsProps from "./components/EventsAsProps";
@@ -8,6 +9,7 @@ import FormHandling from "./components/FormHandling";
 import DerivedStates from "./components/hooks/DerivedStates";
 import LiftningStateUp from "./components/hooks/LiftningStateUp";
 import StateQuestion from "./components/hooks/StateQuestion";
+import UseEffect from "./components/hooks/UseEffect";
 import UseState from "./components/hooks/UseState";
 import JSXasProps from "./components/JSXasProps";
 import Series from "./components/Series";
@@ -31,7 +33,7 @@ const App = () => {
     //   </h1>
     //   <h2>main masla create kr rha hon</h2>
     // </>
-    <div className="w-full h-screen flex justify-center items-center">
+    <div className="w-full h-screen ">
     {/* <Series/> */}
     {/* <StyledButton/> */}
 
@@ -47,7 +49,9 @@ const App = () => {
     {/* <LiftningStateUp/> */}
     {/* <SohrtCircuitEval/> */}
     {/* <ControllednUncontroled/> */}
-    <FormHandling/>
+    {/* <FormHandling/> */}
+    {/* <UseEffect/> */}
+    <DataFetching/>
 
     </div>
 
