@@ -1,13 +1,21 @@
 import { useEffect, useState } from "react";
-
+import axios from "axios"
+import { fetchUsers } from "../api/api";
 const DataFetching = () => {
   const BASE_URL = "https://api.github.com/users";
   const [users, setUsers] = useState([]);
 
   const fetchUsersData = async () => {
-    const response = await fetch(BASE_URL);
-    const data = await response.json();
-    setUsers(data);
+    // const response = await fetch(BASE_URL);
+    // const data = await response.json();
+    // setUsers(data);
+    const usersData = await fetchUsers();
+    setUsers(usersData);
+
+
+    // const response = await axios.get(BASE_URL);
+    // console.log("naya data",response.data[0].login)
+
   };
   console.log(users);
   useEffect(() => {
